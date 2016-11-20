@@ -15,8 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Player" />
-        <activity android:name=".Discover" />
+        <activity
+            android:name=".Player"
+            android:label="Podcast Player" />
+        <activity
+            android:name=".Discover"
+            android:label="Discover new podcasts" />
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings"
@@ -25,7 +29,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.musicstructure.MainActivity" />
         </activity>
-        <activity android:name=".Subscriptions"></activity>
+        <activity
+            android:name=".Subscriptions"
+            android:label="Subscription"></activity>
     </application>
 
 </manifest>

@@ -18,18 +18,18 @@
 
 
         <TextView
+            android:id="@+id/activity_subscriptions"
             style="@style/CategoryStyle"
-            android:onClick="subscriptions"
             android:text="Subscriptions" />
 
         <TextView
+            android:id="@+id/activity_discover"
             style="@style/CategoryStyle"
-            android:onClick="discover"
             android:text="Discover" />
 
         <TextView
+            android:id="@+id/activity_settings"
             style="@style/CategoryStyle"
-            android:onClick="settings"
             android:text="Settings" />
 
 
@@ -37,33 +37,29 @@
 
 
     <LinearLayout
+        android:id="@+id/activity_player"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
             style="@style/PodStyle"
-            android:onClick="playPodcast"
             android:text="Freakonomics Episode 201" />
 
         <TextView
             style="@style/PodStyle"
-            android:onClick="playPodcast"
             android:text="Freakonomics Episode 202" />
 
         <TextView
             style="@style/PodStyle"
-            android:onClick="playPodcast"
             android:text="This American Life Episode 3" />
 
         <TextView
             style="@style/PodStyle"
-            android:onClick="playPodcast"
             android:text="Android Dev Ep. 4" />
 
         <TextView
             style="@style/PodStyle"
-            android:onClick="playPodcast"
             android:text="Mixergy Episode 10" />
 
     </LinearLayout>
