@@ -19,17 +19,17 @@
 
         <TextView
             style="@style/CategoryStyle"
-
+            android:onClick="subscriptions"
             android:text="Subscriptions" />
 
         <TextView
             style="@style/CategoryStyle"
-
+            android:onClick="discover"
             android:text="Discover" />
 
         <TextView
             style="@style/CategoryStyle"
-
+            android:onClick="settings"
             android:text="Settings" />
 
 
@@ -43,22 +43,27 @@
 
         <TextView
             style="@style/PodStyle"
+            android:onClick="playPodcast"
             android:text="Freakonomics Episode 201" />
 
         <TextView
             style="@style/PodStyle"
+            android:onClick="playPodcast"
             android:text="Freakonomics Episode 202" />
 
         <TextView
             style="@style/PodStyle"
+            android:onClick="playPodcast"
             android:text="This American Life Episode 3" />
 
         <TextView
             style="@style/PodStyle"
+            android:onClick="playPodcast"
             android:text="Android Dev Ep. 4" />
 
         <TextView
             style="@style/PodStyle"
+            android:onClick="playPodcast"
             android:text="Mixergy Episode 10" />
 
     </LinearLayout>

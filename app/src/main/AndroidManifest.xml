@@ -25,6 +25,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.musicstructure.MainActivity" />
         </activity>
+        <activity android:name=".Subscriptions"></activity>
     </application>
 
 </manifest>
